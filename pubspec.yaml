@@ -1,0 +1,8 @@
+name: sphere_platform
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+dev_dependencies:
+  melos: ^7.4.0
+workspace:
+  - apps/sphere
+melos: 

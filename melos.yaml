@@ -1,0 +1,10 @@
+name: SPHERE
+
+packages:
+  - "apps/**"
+  - "packages/**"
+  - "backend/**"
+
+command:
+  bootstrap:
+    usePubspecOverrides: true

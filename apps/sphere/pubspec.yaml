@@ -1,0 +1,42 @@
+name: sphere
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+resolution: workspace
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_models:
+    path: ../../packages/shared_models
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # We added the icon generator here 👇
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  # Your images are registered here 👇
+  assets:
+    - assets/bg.jpg
+    - assets/logo.png
+
+# Configuration for the App Icon Generator 👇
+# Configuration for the App Icon Generator
+# Configuration for the App Icon Generator
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  macos:
+    generate: true
+    image_path: "assets/logo.png"
+  image_path: "assets/logo.png"
