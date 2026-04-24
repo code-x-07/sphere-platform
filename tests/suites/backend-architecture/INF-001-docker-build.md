@@ -6,8 +6,8 @@
 Verify that the backend server initializes correctly within its Docker container and properly exposes the local port.
 
 ## Pre-conditions
-* [ ] The Docker daemon is running on the local machine.
-* [ ] The `.env` file is properly configured with the correct local database and environment variables.
+* [x] The Docker daemon is running on the local machine.
+* [x] The `.env` file is properly configured with the correct local database and environment variables.
 
 ## Test Steps
 1. Open the terminal and navigate to the project root directory.
@@ -21,7 +21,7 @@ The Docker image builds successfully without errors. The container spins up, and
 ---
 ## Execution Record
 *Leave this section blank until you actually run the test.*
-**Status:** [ ] Pass | [ ] Fail | [ ] Blocked
-**Date Tested:** YYYY-MM-DD
-**Tested Version/Commit:** [Commit Hash or Version Number]
-**Actual Result / Notes:** > [Record what actually happened here. If it failed, link to the bug issue.]
+**Status:** [x] Pass | [ ] Fail | [ ] Blocked
+**Date Tested:** 2026-04-24
+**Tested Version/Commit:** v1.0.0
+**Actual Result / Notes:** > Test passed successfully. Docker container built without errors and initialized on port 8080
